@@ -11,6 +11,7 @@ By pass the acgzone.us access restriction.
 
 ## User requirements
 * A browser supports Greasemonkey script
+* A Greasemonkey script which allowed to change it's server address at http://userscripts.org/scripts/show/149762
 
 ## Config script
 * View the php file for help (However the annotation is in Chinese)
@@ -31,7 +32,9 @@ By pass the acgzone.us access restriction.
 
 ## 用户需求
 * 一个支持油猴脚本的浏览器
+* 这个油猴脚本，可以修改服务器地址：http://userscripts.org/scripts/show/149762
 
 # Screenshots (截图)
 * http://i.imgur.com/8W118.png
 * (May not suitable for non-adult) http://i.imgur.com/BHRU1.jpg
+* How do I post those image inside the readme...?
