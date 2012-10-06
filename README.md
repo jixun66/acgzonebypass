@@ -1,6 +1,6 @@
 # English
 
-## What is this script does?
+## What does this script do?
 By pass the acgzone.us access restriction.
 
 ## General Requirements
