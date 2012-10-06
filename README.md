@@ -1,6 +1,6 @@
 # English
 
-## What does this script do?
+## What is this script does?
 By pass the acgzone.us access restriction.
 
 ## General Requirements
@@ -33,4 +33,5 @@ By pass the acgzone.us access restriction.
 * 一个支持油猴脚本的浏览器
 
 # Screenshots (截图)
-*(May not suitable for non-adult) http://i.imgur.com/BHRU1.jpg
+![Configuration at php source]http://i.imgur.com/8W118.png
+(May not suitable for non-adult) http://i.imgur.com/BHRU1.jpg
