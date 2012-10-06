@@ -35,5 +35,5 @@ By pass the acgzone.us access restriction.
 * 这个油猴脚本，可以修改服务器地址：http://userscripts.org/scripts/show/149762
 
 # Screenshots (截图)
-* !["Script configuration"]http://i.imgur.com/8W118.png
+* ![Script Configuration](http://i.imgur.com/8W118.png)
 * (May not suitable for non-adult) http://i.imgur.com/BHRU1.jpg
