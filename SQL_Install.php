@@ -12,18 +12,17 @@ $db_charset = 'UTF-8';				// Êý¾Ý¿â±àÂë
 
 
 
-$installSQL = 'CREATE TABLE IF NOT EXISTS `az_acgzone` (
+$installSQL = 'CREATE TABLE IF NOT EXISTS `' . $db_table . '` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `entry` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `time` int(11) NOT NULL,
   PRIMARY KEY (`id`)
 );';
-$conn   = mysql_connect($db_host . ':' . $db_port, $db_user, $db_pass, true) or die('Can not connect to db server');
-mysql_select_db($db_name, $conn) or die('db not exist.');
-mysql_query("set names " . $db_charset, $conn);
-$result = mysql_query($installSQL, $conn);
-$err = mysql_error ($conn);
-mysql_close($conn);
+$conn = mysqli_connect ($db_host, $db_user, $db_pass, $db_name, $db_port) or die('Can not connect to db server');
+mysqli_query($conn, "set names " . $db_charset);
+$result = mysqli_query ($conn, $installSQL);
+$err = mysqli_error ($conn);
+mysqli_close($conn);
 if($result){
 	die('Job done.');
 } else {
